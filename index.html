@@ -10,8 +10,6 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" />
 
-
-
     <title>Portfolio</title>
 </head>
 
@@ -29,7 +27,7 @@
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="#section-three">Contact Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Resume</a>
@@ -44,6 +42,7 @@
             <div class="section-one-txt">
                 <h1>Hello,I'm Emma Kamau.</h1>
                 <p>I am a developer and an accountant in Kenya.</p>
+                <p>You can view my projects <a href="#project-section">here</a></p>
             </div>
         </div>
         <div class="intro-img col">
@@ -57,24 +56,65 @@
             <p>I have over an year of experience in software development.</p>
             <p id="abt-txt">In a previous role, I was an accountant for about three year but choose to
                 fully dive into software development, a move that was driven by my need to
-                solve problems. You can view my projects <a href="#">here</a>.
+                solve problems.
             </p>
         </div>
     </div>
-    <div class="section-three">
+
+    <div class="project-section" id="project-section">
+        <h1>Some Things I've Built</h1>
+        <div class="row">
+            <div class="card col-4">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bloodbank</h5>
+                    <p class="card-text">Some quick example text to build on the card
+                         title and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://projectbloodbank.herokuapp.com/catalog/" class="btn btn-primary">Click to view</a>
+                </div>
+            </div>
+            <div class="card col-4">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Delani Studios</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://emmakamau.github.io/Assignment_2/" class="btn btn-primary">Click to view</a>
+                </div>
+            </div>
+            <div class="card col-4">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Yolomy</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://emmakamau.github.io/Assignment_1/" class="btn btn-primary">Click to view</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-three" id="section-three">
         <div class="section-three-txt">
             <h1 class="footer-heading">Get in touch.</h1>
             <div class="my-footer">
                 <p class="footer-txt">Want to work together or have any questions?</p>
-                <button type="button" class="btn hello-btn">Say Hello&#128075;</button>
+                <a href="https://www.linkedin.com/in/emmaculate-kamau-987353104/">
+                    <button type="button" class="btn hello-btn">Say Hello&#128075;</button>
+                </a>
             </div>
         </div>
         <div class="socials">
-            <a href="#"><img src="assets/twitter.png" class="social-icon"></a>
-            <a href="#"><img src="assets/linkedin.png" class="social-icon"></a>
-            <a href="#"><img src="assets/instagram.png" class="social-icon"></a>
+            <a href="https://twitter.com/emzkamau"><img src="assets/twitter.png" class="social-icon"></a>
+            <a href="https://www.linkedin.com/in/emmaculate-kamau-987353104/"><img src="assets/linkedin.png"
+                    class="social-icon"></a>
+            <a href="https://www.instagram.com/emmakamau/"><img src="assets/instagram.png" class="social-icon"></a>
             <br><br>
-            <h5>Designed by Emmaculate Kamau</h5>
+            <h6>Designed by Emmaculate Kamau</h6>
+            <br>
         </div>
     </div>
 </body>

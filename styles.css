@@ -12,9 +12,17 @@ hr{
     color: #051367;
 }
 
+a:hover{
+    color:#051367;
+}
+
 #logo-img{
-    height: 3rem;
-    width: 3rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+#abt-txt{
+    margin: 0 14rem;
 }
 
 .section-one{
@@ -27,7 +35,6 @@ hr{
 }
 
 .section-three{
-    background-color: #93B5C6;
     text-align: center;
 }
 
@@ -56,23 +63,43 @@ hr{
 }
 
 .my-footer{
-    border-width: 2rem;
+    border-style:solid;
+    border-width: 4px;
     color: #051367;
+    margin: 2em 20em;
+    padding: 1em;
+}
+
+.footer-txt{
+    font-size: larger;
 }
 
 .hello-btn{
     background-color: #051367;
     color: #93B5C6;
-    margin-bottom: 2rem;
+    margin-top: 1.5em;
+}
+
+.hello-btn:hover{
+    color: white;
 }
 
 .social-icon{
     height: 5em;
     width: 5em;
-    margin-right: 4em;
+    margin-right: 5em;
     margin-bottom: 1em;
 }
 
-.socials{
-    margin-bottom: 4em;
+
+.project-section{
+    background-color: #93B5C6;
+    margin:2em 0;
+    text-align: center;
+    padding: 2em;
+}
+
+.card{
+    margin: 1.2rem;
+    width: 30%;
 }
