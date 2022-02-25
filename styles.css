@@ -102,4 +102,15 @@ a:hover{
 .card{
     margin: 1.2rem;
     width: 30%;
+    background-color: #93B5C6;
+    border: none;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.project-img{
+    width: 100%;
+    height: 15rem;
 }
