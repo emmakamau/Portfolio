@@ -1,6 +1,7 @@
 body{
     background-color: #C9CCD5;
     font-family: monospace;
+    color: #051367;
 }
 
 #logo-img{
@@ -8,3 +9,22 @@ body{
     width: 3rem;
 }
 
+.section-one{
+    margin:2vh 6vh;
+    padding: 2em;
+}
+
+.section-one-txt{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.avatar-profile{
+    float: right;
+    border-radius: 100%;
+    border-width: 8px;
+    border-style: dotted;
+    border-color: #FFE3E3;
+    height: 60vh;
+    width: 60vh;
+}
