@@ -16,6 +16,15 @@ a:hover{
     color:#051367;
 }
 
+.navbar-nav .nav-item .nav-link{
+    color: #051367 !important;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-size: larger;
+}
+
 #logo-img{
     height: 5rem;
     width: 5rem;
