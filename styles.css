@@ -4,19 +4,36 @@ body{
     color: #051367;
 }
 
+hr{
+    width: 80%;
+    margin: auto;
+    height: 0;
+    border-top: solid;
+    color: #051367;
+}
+
 #logo-img{
     height: 3rem;
     width: 3rem;
 }
 
 .section-one{
-    margin:2vh 6vh;
     padding: 2em;
+}
+
+.section-two{
+    margin:6vh;
+    padding: 1em;
 }
 
 .section-one-txt{
     text-align: center;
     margin-top: 8rem;
+    margin-left: 2em;
+}
+
+.section-two-txt{
+    text-align: center;
 }
 
 .avatar-profile{
