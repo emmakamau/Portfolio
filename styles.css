@@ -1,0 +1,9 @@
+body{
+    background-color: #C9CCD5;
+    font-family: monospace;
+}
+
+#logo-img{
+    height: 3rem;
+    width: 3rem;
+}
