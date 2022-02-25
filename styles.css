@@ -26,6 +26,11 @@ hr{
     padding: 1em;
 }
 
+.section-three{
+    background-color: #93B5C6;
+    text-align: center;
+}
+
 .section-one-txt{
     text-align: center;
     margin-top: 8rem;
@@ -44,4 +49,30 @@ hr{
     border-color: #FFE3E3;
     height: 60vh;
     width: 60vh;
+}
+
+.footer-heading{
+    padding-top: 2rem;
+}
+
+.my-footer{
+    border-width: 2rem;
+    color: #051367;
+}
+
+.hello-btn{
+    background-color: #051367;
+    color: #93B5C6;
+    margin-bottom: 2rem;
+}
+
+.social-icon{
+    height: 5em;
+    width: 5em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+}
+
+.socials{
+    margin-bottom: 4em;
 }
