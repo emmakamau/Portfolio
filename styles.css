@@ -130,5 +130,9 @@ a:hover{
     #abt-txt{
         width: 100%
     }
+    .avatar-profile{
+        margin: auto;
+        display: block;
+    }
   }
     
