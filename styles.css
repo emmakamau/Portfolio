@@ -16,6 +16,10 @@ a:hover{
     color:#051367;
 }
 
+.hello:hover{
+    text-shadow: 4px 4px #FFE3E3;
+}
+
 .navbar-nav .nav-item .nav-link{
     color: #051367 !important;
     margin-right: 1vw;
@@ -128,10 +132,11 @@ a:hover{
 @media screen and (max-width: 480px) {
     #abt-txt{
         width: 100%
-    }
-    .avatar-profile{
-        margin: auto;
+    }   
+
+    .intro-img{
         display: block;
+        margin: auto;
     }
   }
     
