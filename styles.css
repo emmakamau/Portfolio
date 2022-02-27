@@ -110,8 +110,7 @@ a:hover{
 }
 
 .card{
-    margin: 1.2rem;
-    width: 30%;
+    margin: 1.2vw;
     background-color: #93B5C6;
     border: none;
 }
