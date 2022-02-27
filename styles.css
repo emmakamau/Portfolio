@@ -12,13 +12,35 @@ hr{
     color: #051367;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:hover{
     color:#051367;
 }
-
+/*
 .hello:hover{
     text-shadow: 4px 4px #FFE3E3;
+}*/
+
+.hello{
+    animation: 2s anim-popoutin ease infinite;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
+
+@keyframes anim-popoutin {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    25% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
 
 .navbar-nav .nav-item .nav-link{
     color: #051367 !important;
@@ -54,7 +76,7 @@ a:hover{
 
 .section-one-txt{
     text-align: center;
-    margin-top: 8vw;
+    margin-top: 10vw;
     margin-left: 2vw;
 }
 
@@ -72,6 +94,7 @@ a:hover{
     width: 60vh;
     animation-name: avatar-profile;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
